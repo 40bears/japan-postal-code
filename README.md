@@ -5,7 +5,7 @@ Forked from https://github.com/ajaxzip3/ajaxzip3.github.io
 
 ## How to install
 ```
-npm install japan-postal-code
+npm install japan-postal-code-ts
 ```
 
 ## How to use
@@ -23,3 +23,7 @@ postal_code.get('1000001', function(address) {
 
 ## LICENSE
 MIT License
+
+TODO
+- [ ] Need to push code for Typescript
+- [ ] Need to make NPM package
