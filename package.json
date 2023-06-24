@@ -1,20 +1,20 @@
 {
-  "name": "japan-postal-code",
-  "version": "0.2.0",
-  "description": "Japan postal code library",
+  "name": "@40bears/japan-postal-code-ts",
+  "version": "1.0.1",
+  "description": "Japan postal code library with TypeScript Support",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mzp/japan-postal-code"
+    "url": "git+https://github.com/40bears/japan-postal-code.git"
   },
   "keywords": [
     "zip",
     "postal code"
   ],
   "author": "mzp",
-  "license": "MIT License",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mzp/japan-postal-code/issues"
+    "url": "https://github.com/40bears/japan-postal-code"
   },
   "devDependencies": {
     "zuul": "~2.1.1",
@@ -26,5 +26,10 @@
   "scripts": {
     "test": "zuul -- test/*.js",
     "test-local": "zuul --local -- test/*.js"
+  },
+  "types": "./index.d.ts",
+  "homepage": "https://github.com/40bears/japan-postal-code#readme",
+  "directories": {
+    "test": "test"
   }
 }

@@ -1,17 +1,18 @@
 # Japan Postal code
-JavaScript module for Japan Postal Code.
-
-Forked from https://github.com/ajaxzip3/ajaxzip3.github.io
+Typescript module for Japan Postal Code.
 
 ## How to install
 ```
-npm install japan-postal-code
+npm install @40bears/japan-postal-code-ts
 ```
 
 ## How to use
 
+### Import 
 ```js
-var postal_code = require('japan-postal-code');
+import * as postal_code from "japan-postal-code-ts";
+
+var postal_code = require('japan-postal-code-ts');
 
 postal_code.get('1000001', function(address) {
   console.log(address.prefecture); // => "東京都"
