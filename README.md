@@ -8,11 +8,9 @@ npm install @40bears/japan-postal-code-ts
 
 ## How to use
 
-### Import 
+### Import and use
 ```js
 import * as postal_code from "japan-postal-code-ts";
-
-var postal_code = require('japan-postal-code-ts');
 
 postal_code.get('1000001', function(address) {
   console.log(address.prefecture); // => "東京都"
